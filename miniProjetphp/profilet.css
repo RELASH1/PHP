@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    transition: all .2s;
+    top: 0;
+    background-color: #fab758;
+    border: none;
+    padding: 1em 2.5em;
+}
+
+span .btn:hover,
+span .btn:focus {
+    background-color: #fab758;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em rgb(30 34 40 / 20%);
+}
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.file-upload {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 4px solid #FFFFFF;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #2590EB 50%, #FFFFFF 50%);
+    background-size: 100% 200%;
+    transition: all 1s;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer !important;
+}
+
+
+
+input[type='file'] {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer !important;
+
+}
+
+.file-upload:hover {
+    background-position: 0 -100%;
+    cursor: pointer !important;
+    color: #2590EB;
+
+}
+
+.upload {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}

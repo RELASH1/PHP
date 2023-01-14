@@ -1,0 +1,48 @@
+body {
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.ui-w-100 {
+    width: 100px !important;
+    height: auto;
+}
+
+.card {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.user-view-table td:first-child {
+    width: 9rem;
+}
+
+.user-view-table td {
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.text-xlarge {
+    font-size: 170% !important;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    transition: all .2s;
+    top: 0;
+    background-color: #fab758;
+    border: none;
+    padding: 0.2em 2.5em;
+}
+
+span .btn:hover,
+span .btn:focus {
+    background-color: #fab758;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em rgb(30 34 40 / 20%);
+}
